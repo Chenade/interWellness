@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'va' => 'Video Analysis',
+    'addTask' => 'Add Task',
+    'taskView' => 'Task View',
+    'licenseManage' => 'License Manage',
+    'events' => 'Events View',
+    'taskUser' => 'Task User',
+    'taskName' => 'Task Name',
+    'analysis' => 'Analysis',
+    'licenseAssign' => 'License Assign',
+    'taskList' => 'Task List',
+    'selectUser' => 'Select User',
+    'detectItem' => 'Detect Item',
+    'enabledTask' => 'Enabled Task',
+    'mailing' => 'Mailing',
+    'apply' => 'Apply',
+    'reset' => 'Reset',
+    'revert' => 'Revert',
+    'draw' => 'Insert',
+    'redraw' => 'Re-Draw',
+    'refresh' => 'Refresh',
+    'submit' => 'Submit',
+    'man' => 'Man',
+    'person' => 'Person',
+    'car' => 'Car',
+    'motorcycle' => 'Motorcycle',
+
+    'eventSearch' => 'Event Search',
+    'trigger' => 'Trigger',
+    'triggers' => 'Triggers',
+    'keyword' => 'Keyword',
+    'keep' => 'Keep',
+    'misjudged' => 'Misjudged',
+
+    'notice' => 'Notice',
+    'parent' => 'Parent',
+
+    'polygon' => 'Polygon',
+    'rect' => 'Rect',
+    'area' => 'Area',
+    'source' => 'Source',
+
+];
