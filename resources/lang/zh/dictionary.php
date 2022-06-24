@@ -1,6 +1,10 @@
 <?php
 
 return array(
+    'about_us' => '關於我們',
+    'service' => '服務項目',
+    'article' => '相關報導',
+    'fnq' => '常見問題',
     'Administrator' => '管理者',
     'Live' => '即時影音',
     'VMS' => '影音管理系統',

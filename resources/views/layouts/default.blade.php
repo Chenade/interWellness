@@ -7,24 +7,7 @@
 @include('includes.navbar')
 <main role="main">
 
-    <audio id="audio-calling" loop>
-        <source src="/files/calling.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <audio id="audio-notification" loop>
-        <source src="/files/notification.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <div class="col" style="margin-bottom: 15px">
-        <h2>{{$page_header}}</h2>
-        <div class="border-bottom"></div>
-    </div>
-    <div class="col text-center loading-container">
-        <span class="spinner-grow spinner-grow"></span>
-    </div>
-    <div class="main-page" style="display: none;">
+    <div class="main-page">
         @yield('content')
     </div>
 
@@ -322,32 +305,7 @@
         <a href="#webrtc" onclick="return false;"><i class="fas fa-phone-alt"> {{trans('webrtc.voice')}} </i></a>
     </div>
 </main>
-<footer class="footer">
-    <div class="col d-flex">
-        <div class="mr-auto">
-            @if(env('CUSTOMIZE')=='fet')
-                {{trans('contact.fet')}} &nbsp;&nbsp; {{trans('contact.fetMailName1')}}
-                /{{trans('contact.fetMailName2')}}
-                &nbsp; {{trans('contact.fetPhone')}}
-                @elseif(env('CUSTOMIZE')=='wibase')
-                &ensp;
-            @else
-                Copyright © Bovia Co., Ltd.
-            @endif
-        </div>
-        <div>
-            @if(session('rent'))
-                <a href="/privacy" target="_blank" style="color: #888888">{{trans('dictionary.privacy')}}</a>&emsp;
-                <a href="/terms" target="_blank" style="color: #888888">{{trans('dictionary.terms')}}</a>&emsp;
-            @endif
-            @if(env('CUSTOMIZE')=='wibase')
-                &nbsp;
-            @else
-                <a href="/contact" target="_blank" style="color: #888888">{{trans('dictionary.contact')}}</a>
-            @endif
-        </div>
-    </div>
-</footer>
+@include('includes.footer')
 @yield('end_script')
 </body>
 </html>

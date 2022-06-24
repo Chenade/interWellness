@@ -1,0 +1,1 @@
+import{_ as o,r as a,o as r,c as n,e as _}from"./index.8e06ba42.js";const l=["src","alt"],p={props:{src:String,alt:String},setup(c){const e=c,t=a(e.src?`/public/Image/${e.src}`:null),s=a(e.alt);return(m,u)=>t.value?(r(),n("img",{key:0,class:"image-component",src:t.value,alt:s.value},null,8,l)):_("",!0)}};var g=o(p,[["__scopeId","data-v-703c44e5"]]);export{g as I};

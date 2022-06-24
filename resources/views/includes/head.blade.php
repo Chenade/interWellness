@@ -9,8 +9,8 @@ header('Set-Cookie: HttpOnly');
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Cloud Peng">
-<meta name="_lang" content="<?php echo session()->has('setLocale') ? session('setLocale') : env('DEFAULT_LANGUAGE', 'en')?>">
+<meta name="author" content="Yangchi Kuo">
+<meta name="_lang" content="<?php echo session()->has('setLocale') ? session('setLocale') : env('DEFAULT_LANGUAGE', 'zh')?>">
 <title>interWellness 為你而思</title>
 <link rel="icon" href="img/logo.ico">
 
@@ -20,7 +20,7 @@ header('Set-Cookie: HttpOnly');
 
 
 <link rel="stylesheet" href="css/jquery.growl.min.css">
-<link rel="stylesheet" href="css/bovia.css?v={{Config::get('app.version')}}">
+<link rel="stylesheet" href="css/iw.css?v={{Config::get('app.version')}}">
 
 <script src="/lib/jquery/js/jquery-3.5.1.min.js"></script>
 <script src="/lib/md5.min.js"></script>
@@ -39,6 +39,3 @@ header('Set-Cookie: HttpOnly');
 
 <script src="js/language.min.js?v={{Config::get('app.version')}}"></script>
 <script src="js/general.min.js?v={{Config::get('app.version')}}"></script>
-@if(session('user'))
-    <script src="js/webrtc.min.js?v={{Config::get('app.version')}}"></script>
-@endif
