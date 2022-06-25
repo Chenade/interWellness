@@ -79,8 +79,16 @@ Route::get('/login', function () {
 //     return strlen($request) ? redirect('/login' . '?r=' . $request) : redirect('/login');
 // });
 
+Route::get('/info', function () {
+    return view('pages.index');
+});
+
+Route::any('{query}',function() {
+    return redirect('/info');
+})->where('query', '.*');
+
 Route::get('/', function () {
-    return view('fixing');
+    return redirect('/info');
     // if (session('user') && session('verify')) {
     //     return view('pages.live');
     // } else {
@@ -250,10 +258,6 @@ Route::get('/', function () {
 //     }
 // });
 
-
-Route::get('/index', function () {
-    return view('pages.index');
-});
 
 Route::get('/tools', function () {
     return view('pages.tools');

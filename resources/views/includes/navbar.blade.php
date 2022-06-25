@@ -23,7 +23,7 @@
         <div class="container">
             <a class="navbar-brand" href="/">
                 <div class=""><img src="/img/logo.jpg" style="margin-bottom: 5px" width="20" height="20"/>
-                    <b>EASE</b>
+                    <b>interWellness</b>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

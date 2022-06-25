@@ -1,21 +1,23 @@
 <footer class="footer-area">
     <div class="container">
         <div class="row">
-            <div class="d-flex flex-wrap col-3">
+            <div class="d-flex flex-wrap col-6 col-sm-3">
                 <!-- <div class="col-12 col-sm-5"><img src="/img/logo-lg.jpg" alt="" style="width: 100%"></div> -->
                 <div class="col-12">
-                    <h5 style="color: #1cc3b2" class="footer-header">聯絡我們</h5>
+                    <h5 style="color: #f4bb1d" class="footer-header">聯絡我們</h5>
                     <p class="footer-content"> </p>
                     <p class="footer-content">Line: @184uaxnm</p>
                     <p class="footer-content">Email: contact@interwellness.life</p>
                 </div>
             </div>
-            <div class="col-4 d-flex flex-column justify-content-around align-items-end">
-                <p class="footer-solgen">聯繫為你而思</p>
-                <p class="footer-solgen">開始「食」起健康</p>
+            <div class="col-6 col-sm-4 d-flex flex-column justify-content-around">
+                <div>
+                    <p class="footer-solgen">聯繫為你而思</p>
+                    <p class="footer-solgen">開始「食」起健康</p>
+                </div>
             </div>
 
-            <div class="d-flex col-5">
+            <div class="col-12 d-flex col-sm-5">
                 <div class="col-12 d-flex align-items-center justify-content-end">
                     <img src="/img/interwellness_eng.png" style=" transform:scale(0.7);">
                 </div>

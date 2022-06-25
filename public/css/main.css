@@ -1,5 +1,5 @@
 .top-header-area, .footer-area{
-    background-color: #0e2737;
+    background-color: #716c60;
     width: 100%;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .footer-area p{
-    color: #afb4bf;
+    color: #d9d9d3;
     margin: 0!important;
 }
 
@@ -156,5 +156,6 @@
 
 .footer-solgen{
     font-size: 1em;
+    text-align: end;
     /* margin: 2em 0 1em 0; */
 }

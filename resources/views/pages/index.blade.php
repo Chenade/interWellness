@@ -3,7 +3,7 @@
 @section('content')
 
     <section id="welcome" class="section" style="height: 100%">
-        <div class="single-welcome-slide bg-img" style="background-image: url(img/index5.jpg);" data-img-url="img/Room2.jpg">
+        <div class="single-welcome-slide bg-img" style="background-image: url(img/meal.jpg);" data-img-url="img/Room2.jpg">
             <div class="welcome-content h-100">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -115,18 +115,201 @@
                         <button class="btn service-detail-btn"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
-               <!-- <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-box wow fadeInUp" data-wow-delay="500ms">
-                    <div class="post-thumbnail"><img src="img/news1.jpg" alt=""></div>
-                    <div class="post-meta">
-                        <a href="#" class="news-duration tag" data-id=" + news[id] + "> duration</a>
-                    </div>
-                    <div class="news-title" data-id=" + news[id] + "> + news[title] + </div>
-                    <p> + news[caption] + </p>
-                    <div class="news-detail" style="display: none" data-id=" + news[id] + "> + news[detail] + </div>
-                    <button class="btn news-detail-btn col-12" data-id=" + news[id] + ">View Details <i class="fas fa-long-arrow-alt-right"></i></button>
-                </div> -->
             </div>
+        </div>
+    </section>
+
+    <section id="nearby" class="section" style="flex-direction: column">
+        <div class="col-12">
+            <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                <h6 class="tag">Article </h6>
+                <h2>{{trans('dictionary.Article')}}</h2>
+            </div>
+        </div>
+        <div class="col-12">
+<!-- {{--            owl-carousel--}} -->
+
+            <div class="projects-slides owl-carousel">
+                <!-- Single Project Slide -->
+                <div class="single-project-slide active bg-img" style="background-image: url(img/article/bao2.jpg);" data-addr="https://www.pcalife.com.tw/zh/news/20220426/">
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2022 Apr.</h6>
+                            <h5>第一屆保誠創新智造所<br>首獎 | 創新未來獎</h5>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>道地小吃</h6>
+                            <h5>台中第二市場</h5>
+                            <p>第二市場自創立已有近八十年的歷史，原為日治時期的新富町市場，主要販售精美高價的貨品，又有「日本人的市場」之稱，後經台中市政府全面整修而成現今風貌，內部集結眾多知名的美味小吃...</p>
+                        </div>
+                        <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <!-- Single Project Slide -->
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/podcast.jpg);" data-addr="https://open.firstory.me/story/cl19sfiihn1qd0hawdh0v7gjs">
+                    <!-- Project Text -->
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2021 Dec.</h6>
+                            <h5>大學生創業家 林芳如 - <br>用美食幫助慢性病患</h5>
+                        </div>
+                    </div>
+                    <!-- Hover Effects -->
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>夜景欣賞</h6>
+                            <h5>柳川河岸</h5>
+                            <p>而晚上的柳川充滿浪漫的氛圍，走在璀璨的燈火下，看著閃閃亮光的柳樹和裝置藝術天鵝，不僅是拍夜景的好地方，也適合情侶夜晚來此散步...</p>
+                        </div>
+                        <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Project Slide -->
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/1a.png);" data-addr="https://www.taipeitimes.com/News/taiwan/archives/2021/09/13/2003764294">
+                    <!-- Project Text -->
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2021 Aug.</h6>
+                            <h5>NTU’s ‘interWellness’competes <br> in Hult Prize Challenge</h5>
+                        </div>
+                    </div>
+                    <!-- Hover Effects -->
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>歷史古蹟</h6>
+                            <h5>道禾六藝文化館</h5>
+                            <p>又稱台中刑務所演武場，興建於日治時期昭和12年(西元1937年)，為司獄官、警察日常練武之武道館舍，屬本市僅存之演武場，歷史原貌保存完整， 極具保存、再利用及建築研究價值...</p>
+                        </div>
+                        <a href="./location2.html" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Project Slide -->
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/a2.png);" data-addr="https://sec.ntu.edu.tw/epaper/article.asp?num=1489&sn=20971">
+                    <!-- Project Text -->
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2021 Aug.</h6>
+                            <h5>學生界諾貝爾獎「霍特獎」臺大團隊<br>獲區域冠軍代表臺灣赴英國參賽</h5>
+                        </div>
+                    </div>
+                    <!-- Hover Effects -->
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>下午茶</h6>
+                            <h5>宮原眼科</h5>
+                            <p>建造於西元1927年的宮原眼科是由日本眼科博士宮原武熊所興建，也是日治時代臺中規模最大的眼科診所，1945年日本戰敗，宮原武熊返回日本，宮原眼科變成了臺中衛生院，但隨著時代的物換遷移，老舊沒落的衛生院逐漸成了危樓，更在九二一大地震中變成了雜草叢生的廢墟。直到「日出」經營團隊耗時一年半，結合兩位建築師、一位古蹟修復博士所共同打造出現代感的日出宮原眼科...</p>
+                        </div>
+                        <a href="./location.html" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Project Slide -->
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/a3.jpg);" data-addr="https://www.ocac.gov.tw/OCAC/Pages/Detail.aspx?nodeid=3214&pid=28622893">
+                    <!-- Project Text -->
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2021 Aug.</h6>
+                            <h5>首度在臺辦理學生界諾貝爾獎<br>青年力量讓臺灣發光</h5>
+                        </div>
+                    </div>
+                    <!-- Hover Effects -->
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>吃喝玩樂</h6>
+                            <h5>一中商圈</h5>
+                            <p>位於中友百貨附近，與三民商圈連成一氣，小吃攤、飲食店林立，各種新潮流行資訊在這隨處可見、隨手可得。各式新潮前衛的玩意都會在此先出現，若你是流行的追求者，一中夜市絕對不能錯過...</p>
+                        </div>
+                        <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Project Slide -->
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/a4.jpg);" data-addr="https://dep.mohw.gov.tw/OOIC/cp-1529-60672-119.html">
+                    <!-- Project Text -->
+                    <div class="project-content">
+                        <div class="text">
+                            <h6>2021 May</h6>
+                            <h5>霍特獎臺灣區第一名得獎團隊<br>拜會陳時中部長</h5>
+                        </div>
+                    </div>
+                    <!-- Hover Effects -->
+                    <div class="hover-effects">
+                        <div class="text">
+                            <h6>吃喝玩樂</h6>
+                            <h5>一中商圈</h5>
+                            <p>位於中友百貨附近，與三民商圈連成一氣，小吃攤、飲食店林立，各種新潮流行資訊在這隨處可見、隨手可得。各式新潮前衛的玩意都會在此先出現，若你是流行的追求者，一中夜市絕對不能錯過...</p>
+                        </div>
+                        <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+<!-- {{--            owl-carousel--}} -->
+        </div>
+    </section>
+
+    <section id="fnq" class="section">
+        <div class="col-12 col-sm-10 col-lg-8 d-flex flex-column justify-content-center">
+            <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
+                <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
+                    <h6 class="tag text-center">FAQ</h6>
+                    <h2>{{trans('dictionary.Fnq')}}</h2>
+                </div>
+            </div>
+            <div class="col-12" style="padding: 10px;">
+                <div class="fnq-box">
+                    <div class="col-12 fnq-q" data-id="1">
+                        <div class="col-12 row d-flex flex-wrap jsutify-content-between">
+                            <div class="col-12 col-sm-11 fnq-tag-title">為你而思目前有提供哪些服務呢？我適合什麼方案？</div>
+                            <div class="col-12 col-sm-1 d-flex align-items-center justify-content-end"><i class="fas fa-solid fa-chevron-down fa-2x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 fnq-ans" data-id="1">
+                        <h6>為你而思目前提供的主要服務是「客製化配餐服務」，提供公司/團體/個人長期訂餐，餐點可根據口味或身體健康需求如減重、健身減脂、低糖調整。我們也正在開發「友善飲食平臺」，預計08月01日正式上線。希望提供正在進行飲食控制的夥伴們「營養標籤搜尋」、「飲食記錄」、「訂餐」與「社群」的平臺，一同落實健康生活。「客製化配餐服務」請至服務項目詳閱。</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="padding: 10px;">
+                <div class="fnq-box">
+                    <div class="col-12 fnq-q" data-id="2">
+                        <div class="col-12 row d-flex flex-wrap">
+                            <div class="col-12 col-sm-11 fnq-tag-title">公司或團體想長期配合可以嗎？</div>
+                            <div class="col-12 col-sm-1 d-flex align-items-center justify-content-center"><i class="fas fa-solid fa-chevron-down fa-2x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 fnq-ans" data-id="2">
+                        <h6>由公司承辦人員與為你而思聯繫，我們將有專人向公司承辦人員了解需求，並根據需求提供配餐計畫書，雙方確認內容後便可開始配餐。詳情請閱讀服務項目。</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="padding: 10px;">
+                <div class="fnq-box">
+                    <div class="col-12 fnq-q" data-id="3">
+                        <div class="col-12 row d-flex flex-wrap">
+                            <div class="col-12 col-sm-11 fnq-tag-title">餐點運送的服務範圍有限制嗎？</div>
+                            <div class="col-12 col-sm-1 d-flex align-items-center justify-content-center"><i class="fas fa-solid fa-chevron-down fa-2x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 fnq-ans" data-id="3">
+                        <h6>目前提供服務的範圍僅有臺北市、新北市的外帶、外送服務，無內用服務。以公司團單為主，若有個人想詢問服務細節，歡迎直接與我們聯繫；另外，若是非臺北地區的朋友希望此服務未來擴及至您的所在地區，也歡迎告知我們，讓我們更有動力擴及服務喔！</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="padding: 10px;">
+                <div class="fnq-box">
+                    <div class="col-12 fnq-q" data-id="4">
+                        <div class="col-12 row d-flex flex-wrap">
+                            <div class="col-12 col-sm-11 fnq-tag-title">該如何聯繫為你而思詢問服務、訂餐？</div>
+                            <div class="col-12 col-sm-1 d-flex align-items-center justify-content-center"><i class="fas fa-solid fa-chevron-down fa-2x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 fnq-ans" data-id="4">
+                        <h6>若有任何想詢問的問題，都歡迎用line聯絡我們，或是寄信至contact@interwellness.life。</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
