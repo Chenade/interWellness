@@ -1,0 +1,160 @@
+.top-header-area, .footer-area{
+    background-color: #0e2737;
+    width: 100%;
+}
+
+.top-header-area i{
+    padding-right: 5px;
+    color: #1cc3b2;
+}
+
+.top-header-content  > a{
+    padding-right: 1em;
+    color: white;
+}
+
+.nav-item{
+    min-width: 120px;
+    color: black;
+    font-size: 1.2em;
+}
+.mobile-show{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
+    .nav-item{
+        font-size: 1.5em;
+    }
+}
+
+.footer-area{
+    color: white!important;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer-area h4{
+    color: #1cc3b2;
+    margin: 0.5em 0;
+}
+
+.footer-area p{
+    color: #afb4bf;
+    margin: 0!important;
+}
+
+.page-title{
+    color: white;
+}
+
+.breadcrumb-area{
+    height: 300px;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+}
+
+.breadcrumb-content .breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.breadcrumb-item-active{
+    color: white!important;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    /* min-height: 70vh; */
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.section-heading{
+    margin-bottom: 1.2em;
+}
+
+.section-heading > h2,h6{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tag{
+    color: #1cc3b2;
+    font-weight: bold;
+}
+
+.modal-title{
+    margin: 0!important;
+}
+
+.bootbox .modal-header{
+    display: block;
+}
+
+.roberto-btn {
+    min-width: 150px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 40px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #1cc3b2;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    transition-duration: 500ms;
+}
+
+
+.roberto-btn-revert {
+    min-width: 150px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1cc3b2;
+    background-color: #ffffff;
+    border: solid #1cc3b2 2px;
+    border-radius: 2px;
+    transition-duration: 500ms;
+}
+
+
+.bg-img {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.footer-header{
+    font-size: 0.7em;
+    margin: 2em 0 1em 0;
+}
+
+.footer-content{
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.footer-solgen{
+    font-size: 1em;
+    /* margin: 2em 0 1em 0; */
+}

@@ -6,10 +6,16 @@ html {
 body {
     margin-bottom: 40px;
 }
-/* 
+
 main {
     padding-top: 80px;
-} */
+}
+
+.home_tag{
+    font-size: large;
+    color: #144142;
+    margin-top: 5em;
+}
 
 .row {
     padding-top: 5px;
