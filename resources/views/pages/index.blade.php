@@ -93,7 +93,7 @@
             <div class="col-12 d-flex justify-content-around flex-wrap row">
                <div class="col-12 col-lg-5" style="padding: 25px;">
                     <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(195, 99, 60, 0.17);">
-                        <div class="post-thumbnail"><img src="img/YC-3.png" alt="" ></div>
+                        <div class="post-thumbnail"><img src="img/26..jpg" alt="" ></div>
                         <div class="col-12" style="padding-left: 2em;">
                             <div class="service-tag-title">客製化配餐服務</div>
                             <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排達到體態與健康控管。</div>
@@ -188,26 +188,6 @@
                 </div>
 
                 <!-- Single Project Slide -->
-                <div class="single-project-slide bg-img" style="background-image: url(img/article/a2.png);" data-addr="https://sec.ntu.edu.tw/epaper/article.asp?num=1489&sn=20971">
-                    <!-- Project Text -->
-                    <div class="project-content">
-                        <div class="text">
-                            <h6>2021 Aug.</h6>
-                            <h5>學生界諾貝爾獎「霍特獎」臺大團隊<br>獲區域冠軍代表臺灣赴英國參賽</h5>
-                        </div>
-                    </div>
-                    <!-- Hover Effects -->
-                    <div class="hover-effects">
-                        <div class="text">
-                            <h6>下午茶</h6>
-                            <h5>宮原眼科</h5>
-                            <p>建造於西元1927年的宮原眼科是由日本眼科博士宮原武熊所興建，也是日治時代臺中規模最大的眼科診所，1945年日本戰敗，宮原武熊返回日本，宮原眼科變成了臺中衛生院，但隨著時代的物換遷移，老舊沒落的衛生院逐漸成了危樓，更在九二一大地震中變成了雜草叢生的廢墟。直到「日出」經營團隊耗時一年半，結合兩位建築師、一位古蹟修復博士所共同打造出現代感的日出宮原眼科...</p>
-                        </div>
-                        <a href="./location.html" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Project Slide -->
                 <div class="single-project-slide bg-img" style="background-image: url(img/article/a3.jpg);" data-addr="https://www.ocac.gov.tw/OCAC/Pages/Detail.aspx?nodeid=3214&pid=28622893">
                     <!-- Project Text -->
                     <div class="project-content">
@@ -251,7 +231,7 @@
         </div>
     </section>
 
-    <section id="fnq" class="section">
+    <section id="fnq" class="section" style="margin-bottom  :80px">
         <div class="col-12 col-sm-10 col-lg-8 d-flex flex-column justify-content-center">
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
                 <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
@@ -307,7 +287,7 @@
                         </div>
                     </div>
                     <div class="col-12 fnq-ans" data-id="4">
-                        <h6>若有任何想詢問的問題，都歡迎用line聯絡我們，或是寄信至contact@interwellness.life。</h6>
+                        <h6>若有任何想詢問的問題，都歡迎用<a href="https://lin.ee/6sCf4OU" target="_blank"><i class="fab fa-brands fa-line"></i>line</a>聯絡我們，或是<a href="mailto:contact@interwellness.life">寄信至contact@interwellness.life</a>。</h6>
                     </div>
                 </div>
             </div>
