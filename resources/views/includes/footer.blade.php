@@ -19,7 +19,7 @@
 
             <div class="col-12 d-flex col-sm-5">
                 <div class="col-12 d-flex align-items-center justify-content-end">
-                    <img src="/img/interwellness_eng.png" style=" transform:scale(0.7);">
+                    <img src="/img/interwellness_eng_crop_color.png" style=" transform:scale(0.7);">
                 </div>
             </div>
         </div>

@@ -22,8 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <div class=""><img src="/img/logo_icon.png" style="margin-bottom: 5px" width="20" height="20"/>
-                    <b>interWellness</b>
+                <div class=""><img src="/img/interwellness_eng.png" style="margin-bottom: 5px; height: 30px;"/>
+                    <!-- <b>interWellness</b> -->
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

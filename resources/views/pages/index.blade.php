@@ -66,13 +66,13 @@
                     <div class="wow fadeInUp" data-wow-delay="700ms" style="margin-left: 20px;">
                         <div class="row d-flex flex-wrap">
                             <div class="col-12 col-lg-7 nopadding row d-flex justify-content-around">
-                                <div class="single-thumb col-2 col-lg-12 nopadding">
+                                <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal2">
                                     <img src="img/E_PRINT_02.jpg" alt="">
                                 </div>
-                                <div class="single-thumb col-2 col-lg-12 nopadding">
+                                <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal3">
                                     <img src="img/E_PRINT_03.jpg" alt="">
                                 </div>
-                                <div class="single-thumb col-2 col-lg-12 nopadding">
+                                <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal12">
                                     <img src="img/E_PRINT_12.jpg" alt="">
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                 </div>
 
                 <!-- Single Project Slide -->
-                <div class="single-project-slide bg-img" style="background-image: url(img/article/1a.png);" data-addr="https://www.taipeitimes.com/News/taiwan/archives/2021/09/13/2003764294">
+                <div class="single-project-slide bg-img" style="background-image: url(img/article/1a.jpg);" data-addr="https://www.taipeitimes.com/News/taiwan/archives/2021/09/13/2003764294">
                     <!-- Project Text -->
                     <div class="project-content">
                         <div class="text">
