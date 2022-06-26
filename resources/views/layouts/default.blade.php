@@ -4,7 +4,7 @@
 <head>
     @include('includes.head')
     <title>interWellness | 為你而思</title>
-    <link rel="icon" href="/img/logo.jpg">
+    <link rel="icon" href="/img/logo_icon.ico">
 </head>
 <body>
 @include('includes.navbar')

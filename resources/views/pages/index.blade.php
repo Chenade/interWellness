@@ -3,7 +3,7 @@
 @section('content')
 
     <section id="welcome" class="section" style="height: 100%">
-        <div class="single-welcome-slide bg-img" style="background-image: url(img/meal.jpg);" data-img-url="img/Room2.jpg">
+        <div class="single-welcome-slide bg-img" style="background-image: url(img/cover.jpg);" data-img-url="img/Room2.jpg">
             <div class="welcome-content h-100">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -32,7 +32,8 @@
         </div>
     </section>
 
-    <section id="about" class="section">
+    <a id="about_us" class="target"></a>
+    <section class="section">
         <div class="col-12 col-sm-10 col-lg-8">
             <a id="index"></a>
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
@@ -82,7 +83,8 @@
         </div>
     </section>
 
-    <section id="service" class="section">
+    <a id="service" class="target"></a>
+    <section class="section">
         <div class="col-10 col-sm-10 col-lg-10 d-flex flex-column justify-content-center">
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
                 <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
@@ -93,10 +95,10 @@
             <div class="col-12 d-flex justify-content-around flex-wrap row">
                <div class="col-12 col-lg-5" style="padding: 25px;">
                     <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(195, 99, 60, 0.17);">
-                        <div class="post-thumbnail"><img src="img/26..jpg" alt="" ></div>
+                        <div class="post-thumbnail"><img src="img/service_Lc.jpg" alt="" ></div>
                         <div class="col-12" style="padding-left: 2em;">
                             <div class="service-tag-title">客製化配餐服務</div>
-                            <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排達到體態與健康控管。</div>
+                            <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排<br>達到體態與健康控管。</div>
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center" style="margin-top: 2em">
@@ -105,7 +107,7 @@
                </div>
                <div class="col-12 col-lg-5" style="padding: 25px;">
                     <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(56, 142, 144, 0.17);">
-                        <div class="post-thumbnail"><img src="img/YCn-4.png" alt="" ></div>
+                        <div class="post-thumbnail"><img src="img/photo1.jpg" alt="" ></div>
                         <div class="col-12" style="padding-left: 2em;">
                             <div class="service-tag-title">友善飲食平臺</div>
                             <div class="service-detail">我們重視每種飲食需求<br>透過營養標籤篩選餐點<br>還能匯入飲食日記、線上訂餐。</div>
@@ -119,7 +121,8 @@
         </div>
     </section>
 
-    <section id="nearby" class="section" style="flex-direction: column">
+    <a id="article" class="target"></a>
+    <section class="section" style="flex-direction: column">
         <div class="col-12">
             <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
                 <h6 class="tag">Article </h6>
@@ -127,8 +130,7 @@
             </div>
         </div>
         <div class="col-12">
-<!-- {{--            owl-carousel--}} -->
-
+            <!-- {{--            owl-carousel--}} -->
             <div class="projects-slides owl-carousel">
                 <!-- Single Project Slide -->
                 <div class="single-project-slide active bg-img" style="background-image: url(img/article/bao2.jpg);" data-addr="https://www.pcalife.com.tw/zh/news/20220426/">
@@ -227,7 +229,7 @@
                     </div>
                 </div>
             </div>
-<!-- {{--            owl-carousel--}} -->
+            <!-- {{--            owl-carousel--}} -->
         </div>
     </section>
 

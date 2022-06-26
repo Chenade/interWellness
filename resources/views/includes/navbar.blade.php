@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <div class=""><img src="/img/logo.jpg" style="margin-bottom: 5px" width="20" height="20"/>
+                <div class=""><img src="/img/logo_icon.png" style="margin-bottom: 5px" width="20" height="20"/>
                     <b>interWellness</b>
                 </div>
             </a>
