@@ -33,10 +33,10 @@
                 <ul class="navbar-nav w-100">
                     <div class="ml-auto"></div>
 {{--                    <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>--}}
-                    <li class="nav-item" style="margin: 0 2em;"><a class="nav-link" href="#about_us">{{trans('dictionary.About_us')}}</a></li>
-                    <li class="nav-item" style="margin: 0 2em;"><a class="nav-link" href="#service">{{trans('dictionary.Service')}}</a></li>
-                    <li class="nav-item" style="margin: 0 2em;"><a class="nav-link" href="#article">{{trans('dictionary.Article')}}</a></li>
-                    <li class="nav-item" style="margin: 0 2em;"><a class="nav-link" href="#fnq">{{trans('dictionary.Fnq')}}</a></li>
+                    <li class="nav-item" style="margin: 0 1.5em;font-size:0.9em;"><a class="nav-link" href="#about_us">{{trans('dictionary.About_us')}}</a></li>
+                    <li class="nav-item" style="margin: 0 1.5em;font-size:0.9em;"><a class="nav-link" href="#service">{{trans('dictionary.Service')}}</a></li>
+                    <li class="nav-item" style="margin: 0 1.5em;font-size:0.9em;"><a class="nav-link" href="#article">{{trans('dictionary.Article')}}</a></li>
+                    <li class="nav-item" style="margin: 0 1.5em;font-size:0.9em;"><a class="nav-link" href="#fnq">{{trans('dictionary.Fnq')}}</a></li>
                     <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="videodrop" data-toggle="dropdown">{{trans('dictionary.Member')}}</a>
                         <ul class="dropdown-menu">
                             @if(session('account') == 'admin@gmail.com'))

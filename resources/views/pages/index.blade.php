@@ -61,19 +61,19 @@
                 <!-- <div class="col-12 col-lg-3" style="padding-left: 50px;"> -->
                 <div class="col-12 col-lg-3">
                     <div class="about-us-content-title">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms" style="margin-right: 4em; margin-left: 20px;">SDG 目標</h5>
+                        <h5 class="wow fadeInUp" data-wow-delay="300ms" style="margin-right: 3.6em; margin-left: 20px;">SDG 目標</h5>
                     </div>
                     <div class="wow fadeInUp" data-wow-delay="700ms" style="margin-left: 20px;">
                         <div class="row d-flex flex-wrap">
                             <div class="col-12 col-lg-7 nopadding row d-flex justify-content-around">
                                 <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal2">
-                                    <img src="img/E_PRINT_02.jpg" alt="">
+                                    <img src="img/E_PRINT_02.jpg" alt="" style="width:90%;">
                                 </div>
                                 <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal3">
-                                    <img src="img/E_PRINT_03.jpg" alt="">
+                                    <img src="img/E_PRINT_03.jpg" alt="" style="width:90%;">
                                 </div>
                                 <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal12">
-                                    <img src="img/E_PRINT_12.jpg" alt="">
+                                    <img src="img/E_PRINT_12.jpg" alt="" style="width:90%;">
                                 </div>
                             </div>
                         </div>
@@ -101,8 +101,8 @@
                             <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排<br>達到體態與健康控管。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center" style="margin-top: 2em">
-                        <button class="btn service-detail-btn"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
+                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
+                        <button class="btn service-detail-btn" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
                <div class="col-12 col-lg-5" style="padding: 25px;">
@@ -113,8 +113,8 @@
                             <div class="service-detail">我們重視每種飲食需求<br>透過營養標籤篩選餐點<br>還能匯入飲食日記、線上訂餐。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center" style="margin-top: 2em">
-                        <button class="btn service-detail-btn"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
+                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
+                        <button class="btn service-detail-btn" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
             </div>
