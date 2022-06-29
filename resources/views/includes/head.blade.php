@@ -6,8 +6,9 @@
 <link rel="stylesheet" href="/css/animate.css">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/css/index.css">
-<link rel="stylesheet" href="/css/about.css">
+<link rel="stylesheet" href="/css/info.css">
+<link rel="stylesheet" href="/css/info_500.css">
+<!-- <link rel="stylesheet" href="/css/about.css"> -->
 
 
 <link rel="stylesheet" href="/lib/owl-carousel/docs.theme.min.css">

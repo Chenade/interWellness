@@ -1,3 +1,9 @@
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
 .top-header-area, .footer-area{
     background-color: #716c60;
     width: 100%;
@@ -71,7 +77,7 @@
 }
 
 .section{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     margin: 50px 0;
@@ -147,6 +153,7 @@
 .footer-header{
     font-size: 0.7em;
     margin: 2em 0 1em 0;
+    color: #f4bb1d;
 }
 
 .footer-content{
@@ -158,4 +165,8 @@
     font-size: 1em;
     text-align: end;
     /* margin: 2em 0 1em 0; */
+}
+
+.footer-logo{
+    transform:scale(0.7);
 }

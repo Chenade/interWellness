@@ -2,7 +2,7 @@
 @extends('layouts.default', ['page_header' =>'About','page_parent' =>'Home','page_parent_path' =>'/','page_path' =>''])
 @section('content')
 
-    <section id="welcome" class="section" style="height: 100%">
+    <section id="welcome" class="section col-12 nopadding" style="height: 100%">
         <div class="single-welcome-slide bg-img" style="background-image: url(img/cover.jpg);" data-img-url="img/Room2.jpg">
             <div class="welcome-content h-100">
                 <div class="container h-100">
@@ -20,6 +20,7 @@
 
                         <div class="col-12">
                             <div class="welcome-text text-center">
+                                <img class="pc-hidden" src="img/logo_icon.png" alt="" style="width:28%; margin-bottom: 2em;" />
                                 <h6 class="animate__animated animate__fadeInLeft" data-animation="fadeInLeft" data-delay="200ms">{{trans('dictionary.interwellness')}}</h6>
                                 <h2 class="animate__animated animate__fadeInRight" data-animation="fadeInLeft" data-delay="500ms" style="font-family:微軟正黑體;">{{trans('dictionary.solgan1')}} <br> {{trans('dictionary.solgan2')}}</h2>
                                 <!-- <a href="#index" class="btn roberto-btn btn-2" data-animation="fadeInLeft" data-delay="800ms">Discover Now</a> -->
@@ -37,33 +38,36 @@
         <div class="col-12 col-sm-10 col-lg-8">
             <a id="index"></a>
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
-                <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
+                <div class="section-heading">
                     <h6 class="tag text-center">About Us</h6>
-                    <h2>{{trans('dictionary.About_us')}}</h2>
+                    <h2 class="">{{trans('dictionary.About_us')}}</h2>
                 </div>
             </div>
             <div class="col-12 d-flex flex-wrap nopadding">
                 <div class="col-12 col-lg-9 nopadding">
-                    <div class="about-us-content-title">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">願景</h5>
+                    <div class="about-us-content-title auct_first">
+                        <h5>願景</h5>
                     </div>
+                    <div class="d-flex justify-content-center"><hr class="about-hr"></div>
                     <div class="about-us-content" style="min-height: 50px;">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">{{trans('dictionary.index_wish')}}</h5>
+                        <h5>{{trans('dictionary.index_wish')}}</h5>
                     </div>
                     <div class="about-us-content-title" style="margin-top: 50px;">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">使命</h5>
+                        <h5>使命</h5>
                     </div>
+                    <div class="d-flex justify-content-center"><hr class="about-hr"></div>
                     <div class="about-us-content">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">{{trans('dictionary.index_goal')}}</h5>
+                        <h5>{{trans('dictionary.index_goal')}}</h5>
                     </div>
                 </div>
                 <!-- <div class="col-12 col-lg-1"></div> -->
                 <!-- <div class="col-12 col-lg-3" style="padding-left: 50px;"> -->
                 <div class="col-12 col-lg-3">
                     <div class="about-us-content-title">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms" style="margin-right: 3.6em; margin-left: 20px;">SDG 目標</h5>
+                        <h5 class="auct_third">SDG 目標</h5>
                     </div>
-                    <div class="wow fadeInUp" data-wow-delay="700ms" style="margin-left: 20px;">
+                    <div class="d-flex justify-content-center"><hr class="about-hr hr-sdg"></div>
+                    <div style="margin-left: 20px;">
                         <div class="row d-flex flex-wrap">
                             <div class="col-12 col-lg-7 nopadding row d-flex justify-content-around">
                                 <div class="single-thumb col-2 col-lg-12 nopadding" data-addr="https://sdgs.un.org/goals/goal2">
@@ -87,7 +91,7 @@
     <section class="section">
         <div class="col-10 col-sm-10 col-lg-10 d-flex flex-column justify-content-center">
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
-                <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
+                <div class="section-heading" data-wow-delay="100ms">
                     <h6 class="tag text-center">Our Service</h6>
                     <h2>{{trans('dictionary.Service')}}</h2>
                 </div>
@@ -101,8 +105,8 @@
                             <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排<br>達到體態與健康控管。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
-                        <button class="btn service-detail-btn" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
+                    <div class="col-12 d-flex justify-content-center mobile-hidden" style="margin-top: 1em">
+                        <button class="btn service-detail-btn" data-type="1" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
                <div class="col-12 col-lg-5" style="padding: 25px;">
@@ -113,7 +117,7 @@
                             <div class="service-detail">我們重視每種飲食需求<br>透過營養標籤篩選餐點<br>還能匯入飲食日記、線上訂餐。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
+                    <div class="col-12 d-flex justify-content-center mobile-hidden" style="margin-top: 1em">
                         <button class="btn service-detail-btn" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
@@ -122,9 +126,9 @@
     </section>
 
     <a id="article" class="target"></a>
-    <section class="section" style="flex-direction: column">
+    <section class="section service-section" style="flex-direction: column">
         <div class="col-12">
-            <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+            <div class="section-heading text-center">
                 <h6 class="tag">Article </h6>
                 <h2>{{trans('dictionary.Article')}}</h2>
             </div>
@@ -236,7 +240,7 @@
     <section id="fnq" class="section" style="margin-bottom  :80px">
         <div class="col-12 col-sm-10 col-lg-8 d-flex flex-column justify-content-center">
             <div class="col-12 d-flex justify-content-center" style="margin-bottom: 20px;">
-                <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
+                <div class="section-heading">
                     <h6 class="tag text-center">FAQ</h6>
                     <h2>{{trans('dictionary.Fnq')}}</h2>
                 </div>
@@ -296,15 +300,21 @@
         </div>
     </section>
 
-    <div class="modal fade" id="news_modal" role="dialog">
+    <div class="modal fade" id="service_1_modal" role="dialog">
         <div class="modal-dialog modal-xl">
             <div class="modal-content" style="padding: 15px;">
-                <div class="modal-header">
-                    <h4 class="modal-title nopadding" id="news_title"></h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="row">
+                    <div class="d-flex flex-wrap col-11">
+                        <h4 class="col-12 col-lg-5 modal-title nopadding">客製化配餐服務</h4>
+                        <h4 class="col-12 col-lg-7 nopadding">|| 客製化｜專業建議｜營養資訊</h4>
+                    </div>
+                    <div class="col-1">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>\
+                    </div>
                 </div>
                 <div class="modal-body">
-                    <form onsubmit="return false;" class="input-group" style="padding-bottom: 5px">
+
+                    <!-- <form onsubmit="return false;" class="input-group" style="padding-bottom: 5px">
                         <span class="input-group-prepend">
                             <button type="button" class="btn btn-primary" >期間</button>
                         </span>
@@ -312,7 +322,7 @@
                     </form>
                     <div class="col-12">
                         <img id="news_detail" class="col-12" src="/img/logo-lg.jpg" onerror="/img/logo-lg.jpg"/>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">{{trans('dictionary.Close')}}</button>
