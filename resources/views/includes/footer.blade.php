@@ -6,8 +6,8 @@
                 <div class="col-12 nopadding">
                     <h5 class="footer-header mobile-hidden">聯絡我們</h5>
                     <p class="footer-content"> </p>
-                    <p class="footer-content">Line: @184uaxnm</p>
-                    <p class="footer-content">Email: contact@interwellness.life</p>
+                    <p class="footer-content"><a href="https://lin.ee/6sCf4OU" target="_blank"><i class="fab fa-brands fa-line"></i>&ensp;Line</a>: @184uaxnm</p>
+                    <p class="footer-content"><a href="mailto:contact@interwellness.life"><i class="fa fa-solid fa-envelope"></i>&ensp;E-mail</a> : contact@interwellness.life</p>
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex flex-column justify-content-around order-1 order-md-1">
