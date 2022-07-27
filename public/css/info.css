@@ -233,6 +233,10 @@
     top: -100px;
 }
 
+.nobreak{
+    white-space:nowrap;
+}
+
 
 @media screen and (max-device-width: 768px){
     .welcome-text h2 {
