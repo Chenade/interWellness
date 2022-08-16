@@ -97,18 +97,18 @@
                 </div>
             </div>
             <div class="col-12 d-flex justify-content-around flex-wrap row">
-               <div class="col-12 col-lg-5" style="padding: 25px;">
-                    <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(195, 99, 60, 0.17);">
+                <div class="col-12 col-lg-5" style="padding: 25px;">
+                        <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(195, 99, 60, 0.17);">
                         <div class="post-thumbnail"><img src="img/service_Lc.jpg" alt="" ></div>
                         <div class="col-12" style="padding-left: 2em;">
                             <div class="service-tag-title">客製化配餐服務</div>
                             <div class="service-detail">讓忙碌的你不必再費心午餐要吃什麼，<br>更能透過飲食安排<br>達到體態與健康控管。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center mobile-hidden" style="margin-top: 1em">
+                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
                         <button class="btn service-detail-btn" data-type="1" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
-               </div>
+                </div>
                <div class="col-12 col-lg-5" style="padding: 25px;">
                     <div class="service-box" style="box-shadow:-0.5px 2px 10px 1px rgba(56, 142, 144, 0.17);">
                         <div class="post-thumbnail"><img src="img/photo1.jpg" alt="" ></div>
@@ -117,7 +117,7 @@
                             <div class="service-detail">我們重視每種飲食需求<br>透過營養標籤篩選餐點<br>還能匯入飲食日記、線上訂餐。</div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center mobile-hidden" style="margin-top: 1em">
+                    <div class="col-12 d-flex justify-content-center" style="margin-top: 1em">
                     <button class="btn service-detail-btn" data-type="2" target="_blank"><i class="fas fa-solid fa-chevron-down fa-2x"></i></button>
                     </div>
                </div>
@@ -303,84 +303,94 @@
     <div class="modal fade" id="service_1_modal" role="dialog">
         <div class="modal-dialog modal-xl">
             <div class="modal-content" style="padding: 15px;">
-                <div class="row">
-                    <div class="d-flex flex-wrap col-11">
-                        <h4 class="col-12 col-lg-3 modal-title nopadding nobreak">客製化配餐服務</h4>
-                        <h class="col-12 col-lg-9 nopadding nobreak">|| 客製化｜專業建議｜營養資訊</h4>
-                    </div>
+                <div class="d-flex justify-content-end">
                     <div class="col-1">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal" style="font-size: 2em;">&times;</button>
                     </div>
                 </div>
                 <div class="modal-body">
-                    <div class="d-flex flex-wrap align-items-center" style="background-color: #b2c3c5; width: 100%; padding: 10px;">
-                        <div class="col-12 col-sm-10">
-                            <h6 style="word-wrap:break-word; color:#144142;">
+                    <div class="d-flex flex-wrap">
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title" >客製化配餐服務</div>
+                        </div>
+                        <div class="d-flex justify-content-start" style="margin-top: 7px;">
+                            <h5 class="nopadding nobreak">&emsp;|| 客製化｜專業建議｜營養資訊</h5>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex align-items-center">
+                            <hr style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center col-11" style="background-color: #b2c3c5; padding: 10px; border-radius: 15px; margin: 1.5rem;">
+                        <div class="col-12 col-lg-10" style="padding: 1em;">
+                            <h6 style="word-wrap:break-word; color:#144142; line-height: 2rem;">
                                 為你而思正在進行企業夥伴健康飲食專案，透過專人與公司承辦人員接洽了解員工飲食需求，為你而思的團隊有營養師能協助篩選、搭配餐點。讓員工可以在配餐當天享用到營養健康的餐點，並能看到餐點營養標示。讓忙碌的你不再費心午餐要吃什麼，還能利用飲食控制體態與健康。
                             </h6>
                         </div>
-                        <div class="col-12 col-sm-2">
-                            <button class="btn btn-info" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank">聯絡我們<br>索取報價</button>
+                        <div class="col-12 col-lg-2 d-flex justify-content-center align-items-center">
+                            <button class="btn btn-info d-none d-lg-block" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank">聯絡我們<br>索取報價</button>
+                            <button class="btn btn-info d-lg-none" style="margin-top: 1em;" onclick=location.href="https://lin.ee/6sCf4OU" target="_blank">聯絡我們索取報價</button>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-start" style="margin-top: 30px;"><div class="service-tag-title">服務特色</div></div>
+
                     <div class="d-flex flex-wrap">
-                        <div  class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; border-radius: 100px; background-color: #144142; color: white; word-wrap:break-word; width: 120px; height: 120px; font-size: 20px;">客製化</div>
-                            <h6 style="word-wrap:break-word; color:#144142;">
-                                根據健康需求、口味、預算等客製餐點內容。
-                            </h6>
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title">服務特色</div>
                         </div>
-                        <div  class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; border-radius: 100px; background-color: #144142; color: white; word-wrap:break-word; width: 120px; height: 120px; font-size: 20px;">專業建議</div>
-                            <h6 style="word-wrap:break-word; color:#144142;">
-                                營養師根據健康需求如減重、疾病狀況等，及飲食需求搭配餐點。
-                            </h6>
-                        </div>
-                        <div  class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; border-radius: 100px; background-color: #144142; color: white; word-wrap:break-word; width: 120px; height: 120px; font-size: 20px;">資訊透明</div>
-                            <h6 style="word-wrap:break-word; color:#144142;">
-                                提供之餐點將附上餐廳資訊、營養標示。
-                            </h6>
-                        </div>
-                        <div  class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; border-radius: 100px; background-color: #144142; color: white; word-wrap:break-word; width: 120px; height: 120px; font-size: 20px;">選擇多樣</div>
-                            <h6 style="word-wrap:break-word; color:#144142;">
-                                有不同餐廳餐點供選擇，讓執行飲食計畫不再無趣、單調。
-                            </h6>
+                        <div class="col-12 col-lg-10 d-flex align-items-center">
+                            <hr style="width: 100%">
                         </div>
                     </div>
-                    <hr>
-                    <div class="d-flex justify-content-start" style="margin-top: 30px;"><div class="service-tag-title">服務流程</div></div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap col-11" style="margin: 2em 0;">
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="ser-title col-12">客製化</div>
+                                <div class="ser-content">根據健康需求、口味、預算等客製餐點內容。</div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="ser-title col-12">專業建議</div>
+                                <div class="ser-content">營養師根據健康需求如減重、疾病狀況等，及飲食需求搭配餐點。</div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="ser-title col-12">資訊透明</div>
+                                <div class="ser-content"> 提供之餐點將附上餐廳資訊、營養標示。</div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="ser-title col-12">選擇多樣</div>
+                                <div class="ser-content">有不同餐廳餐點供選擇，讓執行飲食計畫不再無趣、單調。</div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="d-flex flex-wrap">
-                        <div  class="col-12 col-lg-4 d-flex flex-column align-items-center" style="margin-bottom: 10px;">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                                Step 1 專人了解需求
-                            </div>
-                            <h6 style="word-wrap:break-word; color:#144142; padding: 10px!important;">
-                                為你而思將由專人與公司承辦人員了解需求，如員工人數、預算、飲食習慣與需求等。承辦人員也能向公司的人資、CSR部門提案，使餐點安排成為EAP的服務內容。
-                            </h6>
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title">服務流程</div>
                         </div>
-                        <div  class="col-12 col-lg-4 d-flex flex-column align-items-center" style="margin-bottom: 10px;">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                                Step 2 專業配餐提案
-                            </div>
-                            <h6 style="word-wrap:break-word; color:#144142; padding: 10px!important;">
-                                根據承辦人員提出之需求，由營養師篩選、搭配餐點，並提供配餐計畫。
-                            </h6>
+                        <div class="col-12 col-lg-10 d-flex align-items-center">
+                            <hr style="width: 100%">
                         </div>
-                        <div  class="col-12 col-lg-4 d-flex flex-column align-items-center" style="margin-bottom: 10px;">
-                            <div class="d-flex justify-content-center align-items-center" style="margin: 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                                Step 3 雙方確認內容
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap col-11" style="margin: 2em 0;">
+                            <div class="col-12 col-lg-4">
+                                <div class="ser-title col-12" style="background-color: #f4bc1d;">Step 1 專人了解需求</div>
+                                <div class="ser-content">為你而思將由專人與公司承辦人員了解需求，如員工人數、預算、飲食習慣與需求等。承辦人員也能向公司的人資、CSR部門提案，使餐點安排成為EAP的服務內容。</div>
                             </div>
-                            <h6 style="word-wrap:break-word; color:#144142; padding: 10px!important;">
-                                雙方確認餐廳、餐點、營養標示、送餐時間、價格等。
-                            </h6>
+                            <div class="col-12 col-lg-4">
+                                <div class="ser-title col-12" style="background-color: #f4bc1d;">Step 2 專業配餐提案</div>
+                                <div class="ser-content">根據承辦人員提出之需求，由營養師篩選、搭配餐點，並提供配餐計畫。</div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="ser-title col-12" style="background-color: #f4bc1d;">Step 3 雙方確認內容</div>
+                                <div class="ser-content">雙方確認餐廳、餐點、營養標示、送餐時間、價格等。</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{trans('dictionary.close')}}</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="border-radius: 20px; width: 10em;">{{trans('dictionary.close')}}</button>
                 </div>
             </div>
         </div>
@@ -389,55 +399,78 @@
     <div class="modal fade" id="service_2_modal" role="dialog">
         <div class="modal-dialog modal-xl">
             <div class="modal-content" style="padding: 15px;">
-                <div class="row">
-                    <div class="d-flex flex-wrap col-11">
-                        <h4 class="col-12 col-lg-3 modal-title nopadding nobreak">友善飲食平臺</h4>
-                        <h class="col-12 col-lg-9 nopadding nobreak">|| 營養標籤｜篩選餐點｜搜集餐點</h4>
-                    </div>
+                <div class="d-flex justify-content-end">
                     <div class="col-1">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal" style="font-size: 2em;">&times;</button>
                     </div>
                 </div>
                 <div class="modal-body">
-                    <div class="d-flex flex-wrap align-items-center" style="background-color: #b2c3c5; width: 100%; padding: 10px;">
-                        <!-- <div class="col-12 col-sm-10"> -->
-                            <h6 style="word-wrap:break-word; color:#144142; margin-bottom: 50px;">
-                                為了可以更規模化服務，我們正在開發友善飲食平臺。
-                                讓在乎健康的你可以透過「低糖」、「高蛋白」、「低GI」等營養標籤，
-                                快速找到符合自身需求的飲食，搜尋到合適、喜歡的餐點也能將餐點儲存起來。
-                                未來也能將這份餐點的營養資訊記錄在屬於自己的飲食日記中。
-                                我們初期將先與健康餐合作，將營養資訊電子化。
-                                也將與物流搭配，讓餐點能準時抵達您的手中。
+                    <div class="d-flex flex-wrap">
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title" >友善飲食平臺</div>
+                        </div>
+                        <div class="d-flex justify-content-start" style="margin-top: 7px;">
+                            <h5 class="nopadding nobreak">&emsp;|| 營養標籤｜篩選餐點｜搜集餐點</h5>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex align-items-center">
+                            <hr style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center col-11" style="background-color: #b2c3c5; padding: 10px; border-radius: 15px; margin: 1.5rem;">
+                        <div class="col-12" style="padding: 1em;">
+                            <h6 style="word-wrap:break-word; color:#144142; line-height: 2rem;">
+                                為了可以更規模化服務，我們正在開發友善飲食平臺。 讓在乎健康的你可以透過「低糖」、「高蛋白」、「低GI」等營養標籤， 快速找到符合自身需求的飲食，搜尋到合適、喜歡的餐點也能將餐點儲存起來。 未來也能將這份餐點的營養資訊記錄在屬於自己的飲食日記中。 我們初期將先與健康餐合作，將營養資訊電子化。 也將與物流搭配，讓餐點能準時抵達您的手中。
                             </h6>
-                        <!-- </div> -->
+                        </div>
                     </div>
-                    <img src="/img/web_demo.png" style="width: 100%" />
+
                     <div class="d-flex flex-wrap">
-                        <div class="d-flex justify-content-center align-items-center col-12 col-sm-4" 
-                             style="margin: 20px 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                            標籤定義
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title" >開始你的美食探索之旅！</div>
                         </div>
-                        <div class="col-12 col-lg-7 d-flex align-items-center" style="word-wrap:break-word; color:#144142; ">各個飲食標籤各有「為你而思」定義的標準範圍，故在使用標籤時還是需要根據個人需求，並且注意我們的文字說明。</div>
-                    </div>
-                    <hr>
-                    <div class="d-flex flex-wrap flex-row-reverse">
-                        <div class="d-flex justify-content-center align-items-center col-12 col-sm-4" 
-                             style="margin: 20px 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                             使用方式
+                        <div class="d-flex justify-content-start" style="margin-top: 7px;">
+                            <h5 class="nopadding nobreak">&emsp;找出符合飲食需求的餐點...</h5>
                         </div>
-                        <div class="col-12 col-lg-7 d-flex align-items-center" style="word-wrap:break-word; color:#144142; ">根據自己的身體狀況、目標，或是專業人士建議過飲食後，至為你而思官網選擇符合自己飲食需求的標籤。可以同時選擇多個標籤呦</div>
+                        <div class="col-12 col-lg-6 d-flex align-items-center">
+                            <hr style="width: 100%">
+                        </div>
                     </div>
-                    <hr>
+                    <div class="d-flex justify-content-center col-12">
+                        <img src="/img/web_demo2.png" style="width: 90%" />
+                    </div>
+
                     <div class="d-flex flex-wrap">
-                        <div class="d-flex justify-content-center align-items-center col-12 col-sm-4" 
-                             style="margin: 20px 10px; background-color: #144142; color: white; word-wrap:break-word; width: 100%; line-height: 2em; font-size: 20px;">
-                             收集餐點
+                        <div class="d-flex justify-content-start" style="margin-top: 5px;">
+                            <div class="service-tag-title">服務流程</div>
                         </div>
-                        <div class="col-12 col-lg-7 d-flex align-items-center" style="word-wrap:break-word; color:#144142; ">利用營養標籤篩選完餐點後，可以將喜歡的餐點留存起來，之後就可以在自己的清單內選擇餐點囉！</div>
+                        <div class="col-12 col-lg-10 d-flex align-items-center">
+                            <hr style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="ser2-box col-11 d-flex flex-wrap">
+                            <div class="ser2-title col-12 col-sm-4 col-lg-2">標籤定義</div>
+                            <div class="ser2-content col-12 col-sm-8 col-lg-10">
+                                各個飲食標籤各有「為你而思」定義的標準範圍，故在使用標籤時還是需要根據個人需求，並且注意我們的文字說明。
+                            </div>
+                        </div>
+                        <div class="ser2-box col-11 d-flex flex-wrap flex-row-reverse">
+                            <div class="ser2-title col-12 col-sm-4 col-lg-2" style="border-radius: 0 20px 20px 0; background-color:#c3633c;">使用方式</div>
+                            <div class="ser2-content col-12 col-sm-8 col-lg-10" style="border-radius: 20px 0 0 20px;">
+                                根據自己的身體狀況、目標，或是專業人士建議過飲食後，至為你而思官網選擇符合自己飲食需求的標籤。可以同時選擇多個標籤呦
+                            </div>
+                        </div>
+                        <div class="ser2-box col-11 d-flex flex-wrap">
+                            <div class="ser2-title col-12 col-sm-4 col-lg-2" style="background-color:#388e90;">收集餐點</div>
+                            <div class="ser2-content col-12 col-sm-8 col-lg-10">
+                                利用營養標籤篩選完餐點後，可以將喜歡的餐點留存起來，之後就可以在自己的清單內選擇餐點囉！
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{trans('dictionary.close')}}</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="border-radius: 20px; width: 10em;">{{trans('dictionary.close')}}</button>
                 </div>
             </div>
         </div>
