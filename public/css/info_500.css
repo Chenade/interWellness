@@ -24,11 +24,6 @@
         font-size: 2em;
     }
     
-    .top-header-area, .footer-area{
-        background-color: #f0f2f3;
-        width: 100%;
-    }
-    
     .footer-area{
         color: white!important;
         padding-top: 1em;

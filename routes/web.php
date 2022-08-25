@@ -15,10 +15,10 @@ use App\Http\Controllers\Restful;
 | to using a Closure or controller method. Build something great!
 |
 */
-Route::resource('/agent/fr/upload', 'FRUploader', ['only' => ['store']]);  # fr restful agent
-Route::resource('/agent/lpr/upload', 'LPRUploader', ['only' => ['store']]);  # lpr restful agent
-Route::resource('/agent', 'Resources', ['only' => ['update', 'show']]);  # restful agent
-Route::resource('/portal', 'Information', ['only' => ['show']]);  # for app information
+// Route::resource('/agent/fr/upload', 'FRUploader', ['only' => ['store']]);  # fr restful agent
+// Route::resource('/agent/lpr/upload', 'LPRUploader', ['only' => ['store']]);  # lpr restful agent
+// Route::resource('/agent', 'Resources', ['only' => ['update', 'show']]);  # restful agent
+// Route::resource('/portal', 'Information', ['only' => ['show']]);  # for app information
 
 
 Route::get('/language/{locale}', function ($lang) {
@@ -259,17 +259,17 @@ Route::get('/', function () {
 // });
 
 
-Route::get('/tools', function () {
-    return view('pages.tools');
-});
+// Route::get('/tools', function () {
+//     return view('pages.tools');
+// });
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
+// Route::get('/contact', function () {
+//     return view('pages.contact');
+// });
 
-Route::get('/terms', function () {
-    return view('includes.terms');
-});
-Route::get('/privacy', function () {
-    return view('includes.privacy');
-});
+// Route::get('/terms', function () {
+//     return view('includes.terms');
+// });
+// Route::get('/privacy', function () {
+//     return view('includes.privacy');
+// });
