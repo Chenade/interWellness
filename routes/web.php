@@ -83,9 +83,9 @@ Route::get('/info', function () {
     return view('pages.index');
 });
 
-Route::any('{query}',function() {
-    return redirect('/info');
-})->where('query', '.*');
+// Route::any('{query}',function() {
+//     return redirect('/info');
+// })->where('query', '.*');
 
 Route::get('/', function () {
     return redirect('/info');
