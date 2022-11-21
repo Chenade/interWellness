@@ -1,3 +1,5 @@
+<meta name="author" content="Yangchi K.">
+
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/lib/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-select.min.css">

@@ -38,6 +38,11 @@ Route::prefix('flyer')->group(function () {
         return redirect('https://lin.ee/6sCf4OU');
     });
 
+    Route::get('/chart', function(){
+        $list = FLYER::getChart();
+        return response() -> json(['success' => True, 'data' => $list], 200);
+    });
+
     Route::get('/list', function(){
         $list = FLYER::getList();
         return response() -> json(['success' => True, 'data' => $list], 200);
